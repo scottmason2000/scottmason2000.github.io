@@ -34,6 +34,17 @@
 	text-decoration: underline;
 }
 </style>
+<!--  include javascript ----------------- -->
+<script src="jquery.js"></script> 
+<script>
+$(function () {
+  var includes = $('[data-include]')
+  $.each(includes, function () {
+    var file = "/" + $(this).data('include') + '.html'
+    $(this).load(file)
+  })
+})
+</script>
 </head>
 <body>
 
@@ -254,12 +265,3 @@
 </div><!---copyright-wrap-End--->
 </body>
 </html>
-<script>
-$(function () {
-  var includes = $('[data-include]')
-  $.each(includes, function () {
-    var file = "/" + $(this).data('include') + '.html'
-    $(this).load(file)
-  })
-})
-</script>
