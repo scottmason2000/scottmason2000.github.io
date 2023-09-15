@@ -37,13 +37,9 @@
 <!--  include javascript ----------------- -->
 <script src="jquery.js"></script> 
 <script>
-$(function () {
-  var includes = $('[data-include]')
-  $.each(includes, function () {
-    var file = "/" + $(this).data('include') + '.html'
-    $(this).load(file)
-  })
-})
+    $(function(){
+      $("#includedContent").load("menu.html"); 
+    });
 </script>
 </head>
 <body>
@@ -56,7 +52,7 @@ $(function () {
 
 <div class="menu-wrap">
 	<div class="menu">
-		<div data-include="menu"></div>
+		<div id="includedContent"></div>
     </div>
     
 <!--    <div class="socia-wrap">
