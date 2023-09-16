@@ -8,7 +8,7 @@ body{font-family:"Trebuchet MS"; font-size:16px;}
 img{border:none;}
 /*h1{ font-family:"Trebuchet MS"; font-size:22px; font-weight:normal; color:#ffed71;}*/
 h1{ font-family:"Trebuchet MS"; font-size:22px; font-weight:normal; color:black;}
-h2{ font-family:"Trebuchet MS"; font-size:18px; font-weight:normal;}
+h2{ font-family:"Trebuchet MS"; font-size:18px; font-weight:normal; background:white; color:#fff;}
 P{ line-height:20px;}
 a{text-decoration:none; color:blue;}
 a:hover{color:#ffffff;}
