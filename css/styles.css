@@ -12,9 +12,13 @@ h2{ font-family:"Trebuchet MS"; font-size:18px; font-weight:normal; background:w
 P{ line-height:20px;}
 a{text-decoration:none; color:blue;}
 a:hover{color:#ffffff;}
+
 /*-------------------------------------------------
 GENERAL CLASSES
 -------------------------------------------------*/
+.div-background {
+	background-color: #ABBAEA;
+}
 .hoverblue {
 	a:hover{color:green;}
 }
